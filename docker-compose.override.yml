@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  api:
+    command: npm run develop
+    volumes:
+      - ./api/src:/app/src
+      - type: volume
+        source: node_modules
+        target: /app/node_modules
+
+volumes:
+  node_modules:
