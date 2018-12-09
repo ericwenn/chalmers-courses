@@ -1,0 +1,15 @@
+[
+  {
+    "type": "compulsory",
+    "courses": ["DAT060", "TIN093", "DAT151"]
+  },
+  {
+    "type": "compulsory-elective",
+    "courses": ["DAT280", "DAT350", "TDA184", "TDA206", "TDA231", "TDA251", "TDA283", "TDA294", "TDA342", "TDA352", "TDA602", "TIN175"],
+    "choose": 4
+  },
+  {
+    "type": "compulsory",
+    "courses": ["DAT315"]
+  }
+]

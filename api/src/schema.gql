@@ -1,0 +1,51 @@
+type Query {
+  program: Program
+}
+
+type Program {
+  name: String!
+  years: [StudyYear]!
+  requirements: [Requirement]
+}
+
+type StudyYear {
+  year: String
+  periods: [StudyPeriod]!
+}
+type StudyPeriod {
+  name: String!
+  courses: [Course]!
+}
+
+type Course {
+  name: String!
+  code: String!
+  points: Float
+  block: BlockEnum
+}
+
+enum BlockEnum {
+  A,
+  B,
+  C,
+  D
+}
+
+interface Requirement {
+  type: RequirementEnum!
+}
+enum RequirementEnum {
+  COMPULSORY_ELECTIVE,
+  COMPULSORY
+}
+
+type CompulsoryRequirement implements Requirement {
+  type: RequirementEnum!
+  courses: [Course]!
+}
+
+type CompulsoryElectiveRequirement implements Requirement {
+  type: RequirementEnum!
+  choose: Int!
+  courses: [Course]!
+}
