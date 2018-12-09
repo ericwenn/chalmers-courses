@@ -12,7 +12,7 @@ const {
 const prepareServer = async (callback: (server: ApolloServer) => void) => {
   const database = await connectToDatabase(MONGO_URL);
   const courseAPI = await makeCourseAPI(database);
-  const typeDefs = loadSchema('./schema.gql');
+  const typeDefs = loadSchema('./schema.graphql');
 
   const dataSources = (): DataSources => ({
     courseAPI: courseAPI(),

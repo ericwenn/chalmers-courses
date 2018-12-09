@@ -1,6 +1,6 @@
 {
   "watch": ["."],
-  "ext": "ts,gql,json",
+  "ext": "ts,graphql,json",
   "ignore": ["app/**/*.spec.ts"],
   "exec": "npx ts-node src/index.ts"
 }

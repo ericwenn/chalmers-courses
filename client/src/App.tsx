@@ -1,27 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import { ApolloProvider } from 'react-apollo';
+import { createGlobalStyle } from 'styled-components';
+import { client } from './graphql/client';
+import { Courses } from './pages/courses';
 
-class App extends Component {
-  public render() {
-    return (
-      <div className='App'>
-        <header className='App-header'>
-          <img src={logo} className='App-logo' alt='logo' />
-          <p>
-            Edist <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className='App-link'
-            href='https://reactjs.org'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+const GlobalStyle = createGlobalStyle`
+  @import url(‘https://fonts.googleapis.com/css?family=Montserrat|Roboto');
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background-color: #0077c1;
+    font-family: Roboto, sans-serif;
   }
-}
+`;
 
-export default App;
+export const App = () => (
+  <ApolloProvider client={client}>
+    <Courses />
+    <GlobalStyle />
+  </ApolloProvider>
+);

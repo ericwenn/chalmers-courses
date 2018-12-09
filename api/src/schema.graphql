@@ -1,20 +1,20 @@
 type Query {
-  program: Program
+  program: Program!
 }
 
 type Program {
   name: String!
-  years: [StudyYear]!
-  requirements: [Requirement]
+  years: [StudyYear!]!
+  requirements: [Requirement!]!
 }
 
 type StudyYear {
   year: String
-  periods: [StudyPeriod]!
+  periods: [StudyPeriod!]!
 }
 type StudyPeriod {
   name: String!
-  courses: [Course]!
+  courses: [Course!]!
 }
 
 type Course {
@@ -41,11 +41,11 @@ enum RequirementEnum {
 
 type CompulsoryRequirement implements Requirement {
   type: RequirementEnum!
-  courses: [Course]!
+  courses: [Course!]!
 }
 
 type CompulsoryElectiveRequirement implements Requirement {
   type: RequirementEnum!
   choose: Int!
-  courses: [Course]!
+  courses: [Course!]!
 }
