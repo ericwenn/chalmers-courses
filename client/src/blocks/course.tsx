@@ -17,19 +17,21 @@ const CourseBlock = styled.div<CourseBlockProps>`
 border-radius: 6px;
 padding: .5em;
 margin-bottom: .5em;
-width: 14em;
 cursor:pointer;
-background-color: ${({ selected }) => selected ? '#a9e3a1 !important' : 'white' };
+border: 2px ${({ selected }) => selected ? '#4CAF50' : 'transparent' } solid;
+order: ${({ selected }) => selected ? '0' : '1'}
 
-${({ slim }) => slim && `
-  display: inline-block;
-  padding: .2em;
-  vertical-align: top;
-  width: auto;
-`}
+background-color: white;
 &:hover {
   background-color: #efefef;
 }
+
+${({ selected }) => selected && `
+  background-color: #66BB6A;
+  &:hover {
+    background-color: #4CAF50;
+  }
+`}
 `;
 
 const Title = styled.h3`

@@ -53,18 +53,25 @@ fragment RequirementFragment on Requirement {
 ${SLIM_COURSE_FRAGMENT}
 `;
 
-export const COURSE_QUERY = gql`
-query CoursesQuery {
-  program {
-    name
-    requirements {
-      ...RequirementFragment
-    }
-    years {
-      ...YearFragment
-    }
+export const PROGRAM_FRAGMENT = gql`
+fragment ProgramFragment on Program {
+  name
+  requirements {
+    ...RequirementFragment
+  }
+  years {
+    ...YearFragment
   }
 }
 ${REQUIREMENT_FRAGMENT}
 ${YEAR_FRAGMENT}
+`;
+
+export const COURSE_QUERY = gql`
+query CoursesQuery {
+  program {
+    ...ProgramFragment
+  }
+}
+${PROGRAM_FRAGMENT}
 `;

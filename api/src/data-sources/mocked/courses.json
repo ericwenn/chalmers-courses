@@ -25,65 +25,55 @@
     "courseCode": "TDA294",
     "block": "B",
     "name": "Formella metoder i mjukvaruutveckling",
-    "points": 5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA294",
-    "block": "B",
-    "points": 2.5
+    "points": 7.5,
+    "moments": [
+      { "points": 5 },
+      { "points": 2.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "DAT151",
     "block": "B",
     "name": "Programspråk",
-    "points": 6
-  },
-  {
-    "institution": "37",
-    "courseCode": "DAT151",
-    "block": "B",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 6 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "DAT105",
     "block": "A+",
     "name": "Datorarkitektur",
-    "points": 1.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "DAT105",
-    "block": "A+",
-    "points": 6
+    "points": 7.5,
+    "moments": [
+      { "points": 1.5 },
+      { "points": 6 }
+    ]
   },
   {
     "institution": "32",
     "courseCode": "EEN020",
     "block": "C",
     "name": "Datorseende",
-    "points": 3
-  },
-  {
-    "institution": "32",
-    "courseCode": "EEN020",
-    "block": "C",
-    "points": 4.5
+    "points": 7.5,
+    "moments": [
+      { "points": 3 },
+      { "points": 4.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "TDA184",
     "block": "A",
     "name": "Beräkningsmodeller",
-    "points": 4.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA184",
-    "block": "A",
-    "points": 3
+    "points": 7.5,
+    "moments": [
+      { "points": 4.5 },
+      { "points": 3 }
+    ]
   },
   {
     "institution": "37",
@@ -97,39 +87,33 @@
     "courseCode": "TDA352",
     "block": "D",
     "name": "Kryptografi",
-    "points": 1.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA352",
-    "block": "D",
-    "points": 6
+    "points": 7.5,
+    "moments": [
+      { "points": 1.5 },
+      { "points": 6 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "TDA362",
     "block": "D+",
     "name": "Computer graphics",
-    "points": 6
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA362",
-    "block": "D+",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 6 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "TDA452",
     "block": "C",
     "name": "Funktionell programmering",
-    "points": 3
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA452",
-    "block": "C",
-    "points": 4.5
+    "points": 7.5,
+    "moments": [
+      { "points": 3 },
+      { "points": 4.5 }
+    ]
   },
   {
     "institution": "37",
@@ -143,39 +127,33 @@
     "courseCode": "DAT340",
     "block": "B",
     "name": "Tillämpad maskininlärning",
-    "points": 4
-  },
-  {
-    "institution": "37",
-    "courseCode": "DAT340",
-    "block": "B",
-    "points": 3.5
+    "points": 7.5,
+    "moments": [
+      { "points": 4 },
+      { "points": 3.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "EDA223",
     "block": "B+",
     "name": "Realtidssystem",
-    "points": 4.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "EDA223",
-    "block": "B+",
-    "points": 3
+    "points": 7.5,
+    "moments": [
+      { "points": 4.5 },
+      { "points": 3 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "EDA263",
     "block": "C+",
     "name": "Datasäkerhet",
-    "points": 6
-  },
-  {
-    "institution": "37",
-    "courseCode": "EDA263",
-    "block": "C+",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 6 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
@@ -189,71 +167,56 @@
     "courseCode": "TDA342",
     "block": "C",
     "name": "Avancerad funktionell programmering",
-    "points": 4.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA342",
-    "block": "C",
-    "points": 3
+    "points": 7.5,
+    "moments": [
+      { "points": 4.5 },
+      { "points": 3 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "TIN175",
     "block": "D+",
     "name": "Introduktion till artificiell intelligens",
-    "points": 2.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TIN175",
-    "block": "D+",
-    "points": 3.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TIN175",
-    "block": "D+",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 2.5 },
+      { "points": 3.5 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "DAT280",
     "block": "C",
     "name": "Parallell funktionell programmering",
-    "points": 6
-  },
-  {
-    "institution": "37",
-    "courseCode": "DAT280",
-    "block": "C",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 6 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "DAT345",
     "block": "A",
     "name": "Tekniker för storskalig datahantering",
-    "points": 4
-  },
-  {
-    "institution": "37",
-    "courseCode": "DAT345",
-    "block": "A",
-    "points": 3.5
+    "points": 7.5,
+    "moments": [
+      { "points": 4 },
+      { "points": 3.5 }
+    ]
   },
   {
     "institution": "37",
     "courseCode": "EDA491",
     "block": "B+",
     "name": "Nätverkssäkerhet",
-    "points": 6
-  },
-  {
-    "institution": "37",
-    "courseCode": "EDA491",
-    "block": "B+",
-    "points": 1.5
+    "points": 7.5,
+    "moments": [
+      { "points": 6 },
+      { "points": 1.5 }
+    ]
   },
   {
     "institution": "37",
@@ -274,13 +237,11 @@
     "courseCode": "TDA602",
     "block": "A+",
     "name": "Språkbaserad datasäkerhet",
-    "points": 4.5
-  },
-  {
-    "institution": "37",
-    "courseCode": "TDA602",
-    "block": "A+",
-    "points": 3
+    "points": 7.5,
+    "moments": [
+      { "points": 4.5 },
+      { "points": 3 }
+    ]
   },
   {
     "institution": "37",
@@ -294,13 +255,11 @@
     "courseCode": "SSY340",
     "block": "A",
     "name": "Djup maskininlärning",
-    "points": 3
-  },
-  {
-    "institution": "32",
-    "courseCode": "SSY340",
-    "block": "A",
-    "points": 4.5
+    "points": 7.5,
+    "moments": [
+      { "points": 3 },
+      { "points": 4.5 }
+    ]
   },
   {
     "institution": "37",

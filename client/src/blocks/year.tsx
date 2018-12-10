@@ -4,9 +4,19 @@ import { PeriodColumn } from '../blocks/period';
 import { YearFragment } from './../graphql/__generated__/YearFragment';
 import { HorizontalPage } from './horizontal-page';
 
-const Year = styled.div`
-  display:inline-block;
-  vertical-align: top;
+const Year = styled.div``;
+
+const YearTitle = styled.h2`
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0 0 1em 1em;
+`;
+
+const YearContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 `;
 
 interface YearProps {
@@ -23,15 +33,15 @@ export const YearColumn: React.FC<YearProps> = ({
   toggleCourse,
   selectedCourses,
 }) => (
-  <HorizontalPage>
-    <Year>
-      <h2>År {year}</h2>
+  <Year>
+    <YearTitle>Årskurs {year}</YearTitle>
+    <YearContainer>
       {periods.map((period, index) => <PeriodColumn
         key={index}
         period={period}
         toggleCourse={toggleCourse}
         selectedCourses={selectedCourses}
       />)}
-    </Year>
-  </HorizontalPage>
+    </YearContainer>
+  </Year>
 );

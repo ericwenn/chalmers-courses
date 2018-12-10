@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { PeriodFragment } from './../graphql/__generated__/PeriodFragment';
 import { Course } from './course';
-import { ListCard, ListCardTitle } from './list-card';
+import { ListCard, ListCardContainer, ListCardTitle } from './list-card';
+
 
 interface PeriodProps {
   period: PeriodFragment;
@@ -21,12 +22,14 @@ export const PeriodColumn: React.FC<PeriodProps> = ({
   return (
     <ListCard>
       <ListCardTitle>{name}</ListCardTitle>
-      { courses.map((course, i) => <Course
-        key={i}
-        course={course}
-        toggleCourse={toggleCourse}
-        selectedCourses={selectedCourses}
-      />)}
+      <ListCardContainer>
+        { courses.map((course, i) => <Course
+          key={i}
+          course={course}
+          toggleCourse={toggleCourse}
+          selectedCourses={selectedCourses}
+        />)}
+      </ListCardContainer>
     </ListCard>
   );
 };
