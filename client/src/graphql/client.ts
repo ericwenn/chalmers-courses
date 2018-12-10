@@ -1,5 +1,9 @@
 import ApolloClient, { InMemoryCache, IntrospectionFragmentMatcher } from 'apollo-boost';
 
+const {
+  REACT_APP_GRAPHL_URL = 'http://localhost:3000',
+} = process.env;
+
 const fragmentMatcher = new IntrospectionFragmentMatcher({
   introspectionQueryResultData: {
     __schema: {
@@ -22,6 +26,6 @@ const cache = new InMemoryCache({ fragmentMatcher });
 
 
 export const client = new ApolloClient({
-  uri: 'http://localhost:3000',
+  uri: REACT_APP_GRAPHL_URL,
   cache,
 });

@@ -25,6 +25,7 @@
     "typescript": "^3.1.6",
     "@types/node": "10.12.10",
     "@types/mongodb": "~3.1.17",
+    "@types/graphql": "^14.0.3",
     "ts-node": "^7.0.1"
   }
 }

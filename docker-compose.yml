@@ -5,7 +5,18 @@ services:
     image: api
     build: api/.
     ports:
-      - 8080:3000
+      - 8901:3000
+    environment:
+      - MONGO_URL=mongodb://mongo/ccourses
+
+  client:
+    build: 
+      context: client/.
+      args:
+        - REACT_APP_GRAPHL_URL=http://167.99.17.131:8901
+
+    ports:
+      - 8902:80
 
   mongo:
     image: mongo

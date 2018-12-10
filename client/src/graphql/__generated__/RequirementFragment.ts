@@ -1,7 +1,7 @@
 /* tslint:disable */
 // This file was automatically generated and should not be edited.
 
-import { RequirementEnum } from "./../../../../__generated__/globalTypes";
+import { RequirementEnum } from "./globalTypes";
 
 // ====================================================
 // GraphQL fragment: RequirementFragment

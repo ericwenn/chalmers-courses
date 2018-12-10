@@ -15,7 +15,8 @@
     "lib": [
       "es6",
       "dom",
-      "dom.iterable"
+      "dom.iterable",
+      "esnext.asynciterable"
     ],
     "baseUrl": "./",
     "typeRoots": [ "./node_modules/@types/", "./@types/"]
