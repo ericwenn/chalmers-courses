@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import { App } from './App';
 import * as serviceWorker from './serviceWorker';
 
+declare global {
+  interface Window { ENV: any; }
+}
+
 const rootEl = document.getElementById('root');
 ReactDOM.render(<App />, rootEl);
 
