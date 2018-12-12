@@ -1,9 +1,7 @@
 version: '3.2'
 services:
   api:
-    container_name: api
-    image: api
-    build: api/.
+    image: ericwenn/chalmers-courses:api-1.0.0
   
     environment:
       - MONGO_URL=mongodb://mongo/ccourses
@@ -13,10 +11,7 @@ services:
       - LETSENCRYPT_EMAIL=ericwenn@gmail.com
 
   client:
-    build: 
-      context: client/.
-      args:
-        - REACT_APP_GRAPHL_URL=https://api.kurser.ericwennerberg.se
+    image: ericwenn/chalmers-courses:client-1.0.0
     
     environment:
       - VIRTUAL_HOST=kurser.ericwennerberg.se
