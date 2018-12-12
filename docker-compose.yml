@@ -4,8 +4,7 @@ services:
     container_name: api
     image: api
     build: api/.
-    ports:
-      - 8901:3000
+  
     environment:
       - MONGO_URL=mongodb://mongo/ccourses
       - VIRTUAL_HOST=api.kurser.ericwennerberg.se
@@ -18,9 +17,6 @@ services:
       context: client/.
       args:
         - REACT_APP_GRAPHL_URL=https://api.kurser.ericwennerberg.se
-
-    ports:
-      - 8902:80
     
     environment:
       - VIRTUAL_HOST=kurser.ericwennerberg.se
