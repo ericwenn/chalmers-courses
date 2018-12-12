@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   api:
-    image: ericwenn/chalmers-courses:api-1.0.0
+    image: ericwenn/chalmers-courses:api-1.0.1
   
     environment:
       - MONGO_URL=mongodb://mongo/ccourses
@@ -11,9 +11,10 @@ services:
       - LETSENCRYPT_EMAIL=ericwenn@gmail.com
 
   client:
-    image: ericwenn/chalmers-courses:client-1.0.0
+    image: ericwenn/chalmers-courses:client-1.0.1
     
     environment:
+      - REACT_APP_GRAPHQL_URL=https://api.kurser.ericwennerberg.se
       - VIRTUAL_HOST=kurser.ericwennerberg.se
       - LETSENCRYPT_HOST=kurser.ericwennerberg.se
       - LETSENCRYPT_EMAIL=ericwenn@gmail.com
