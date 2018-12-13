@@ -1,7 +1,9 @@
 import { Context } from 'src/context';
+import { ProgramResolvers } from 'src/generated/graphqlgen';
 
-export const Program = {
-  years: async (_: any, {}, { dataSources }: Context<any>) => {
+export const Program: ProgramResolvers.Type = {
+  ...ProgramResolvers.defaultResolvers,
+  years: async (_, {}, { dataSources }: Context<any>) => {
     return dataSources.courseAPI.getStudyYears();
   },
 

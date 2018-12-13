@@ -228,7 +228,7 @@
   {
     "institution": "37",
     "courseCode": "TDA283",
-    "block": "",
+    "block": "A",
     "name": "Kompilatorkonstruktion",
     "points": 7.5
   },
@@ -271,7 +271,7 @@
   {
     "institution": "37",
     "courseCode": "DAT235",
-    "block": "",
+    "block": "A",
     "name": "Forskningsinriktad kurs inom data- och informationsteknik",
     "points": 7.5
   },
@@ -287,12 +287,6 @@
     "courseCode": "DATX60",
     "block": "",
     "name": "Masterexamensarbete vid Data- och informationsteknik, del A",
-    "points": 30
-  },
-  {
-    "institution": "37",
-    "courseCode": "DATX60",
-    "block": "",
     "points": 30
   }
 ]

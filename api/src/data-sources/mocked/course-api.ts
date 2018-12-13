@@ -1,34 +1,8 @@
 import { ContextualDataSource } from '../contextual-datasource';
+import { Course, Program, Requirement, StudyPeriod, StudyYear } from '../types';
 import Courses from './courses.json';
 import StudyPeriods from './reading-periods.json';
 import Requirements from './requirements.json';
-
-interface Program {
-  name: string;
-}
-
-interface StudyYear {
-  year: number;
-}
-
-interface StudyPeriod {
-  name: string;
-  courses: string[];
-}
-
-interface Course {
-  institution: string;
-  courseCode: string;
-  block: string;
-  name?: string;
-  points: number;
-}
-
-interface Requirement {
-  type: string;
-  courses: string[];
-  choose?: number;
-}
 
 export class CourseAPI extends ContextualDataSource {
   public getProgram(): Program {
@@ -40,9 +14,11 @@ export class CourseAPI extends ContextualDataSource {
   public getStudyYears(): StudyYear[] {
     return [
       {
+        name: 'Läsperiod 1',
         year: 1,
       },
       {
+        name: 'Läsperiod 2',
         year: 2,
       },
     ];
@@ -57,10 +33,10 @@ export class CourseAPI extends ContextualDataSource {
   public getCourses(courses: string[]): Course[] {
     return Courses.filter((course) => {
       return courses.indexOf(course.courseCode) > -1;
-    }).map((course) => ({
-      name: 'some',
-      code: course.courseCode,
+    }).map((course): Course => ({
       ...course,
+      code: course.courseCode,
+      block: 'A',
     }));
   }
 

@@ -1,0 +1,8 @@
+language: typescript
+
+schema: ./api/src/schema.graphql
+context: ./api/src/context.ts:Context
+models:
+  files:
+    - ./api/src/data-sources/types.ts
+output: ./api/src/generated/graphqlgen.ts

@@ -1,4 +1,5 @@
 import { Context } from 'src/context';
+import { CompulsoryElectiveRequirementResolvers, CompulsoryRequirementResolvers } from 'src/generated/graphqlgen';
 
 export const Requirement = {
   __resolveType: async ({ type }: any) => {
@@ -13,20 +14,20 @@ export const Requirement = {
   },
 };
 
-const typeResolver = ({ type }: { type: string }) => {
-  return type.toUpperCase().replace('-', '_');
-};
 
 const coursesResolver = ({ courses }: any, _: any, { dataSources }: Context) => {
   return dataSources.courseAPI.getCourses(courses);
 };
 
-export const CompulsoryRequirement = {
-  type: typeResolver,
+export const CompulsoryRequirement: CompulsoryRequirementResolvers.Type = {
+  ...CompulsoryRequirementResolvers.defaultResolvers,
+  type: () => 'COMPULSORY',
   courses: coursesResolver,
+
 };
 
-export const CompulsoryElectiveRequirement = {
-  type: typeResolver,
+export const CompulsoryElectiveRequirement: CompulsoryElectiveRequirementResolvers.Type = {
+  ...CompulsoryElectiveRequirementResolvers.defaultResolvers,
+  type: () => 'COMPULSORY_ELECTIVE',
   courses: coursesResolver,
 };

@@ -1,5 +1,10 @@
 type Query {
+  programs(query: ProgramInput): [Program!]!
   program: Program!
+}
+
+input ProgramInput {
+  name: String
 }
 
 type Program {
@@ -9,9 +14,10 @@ type Program {
 }
 
 type StudyYear {
-  year: String
+  year: Int
   periods: [StudyPeriod!]!
 }
+
 type StudyPeriod {
   name: String!
   courses: [Course!]!
@@ -20,15 +26,20 @@ type StudyPeriod {
 type Course {
   name: String!
   code: String!
-  points: Float
-  block: BlockEnum
+  points: Float!
+  block: BlockEnum!
 }
 
 enum BlockEnum {
+  NO_BLOCK,
   A,
+  A_PLUS,
   B,
+  B_PLUS,
   C,
-  D
+  C_PLUS,
+  D,
+  D_PLUS
 }
 
 interface Requirement {
