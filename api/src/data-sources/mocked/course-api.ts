@@ -32,10 +32,9 @@ export class CourseAPI extends ContextualDataSource {
 
   public getCourses(courses: string[]): Course[] {
     return Courses.filter((course) => {
-      return courses.indexOf(course.courseCode) > -1;
+      return courses.indexOf(course.code) > -1;
     }).map((course): Course => ({
       ...course,
-      code: course.courseCode,
       block: 'A',
     }));
   }

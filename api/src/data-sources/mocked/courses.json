@@ -1,28 +1,28 @@
 [
   {
     "institution": "37",
-    "courseCode": "DAT060",
+    "code": "DAT060",
     "block": "D",
     "name": "Matematisk logik för datavetenskap",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TIN093",
+    "code": "TIN093",
     "block": "A",
     "name": "Algoritmer",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "DAT350",
+    "code": "DAT350",
     "block": "C",
     "name": "Typer för bevis och program",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TDA294",
+    "code": "TDA294",
     "block": "B",
     "name": "Formella metoder i mjukvaruutveckling",
     "points": 7.5,
@@ -33,7 +33,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT151",
+    "code": "DAT151",
     "block": "B",
     "name": "Programspråk",
     "points": 7.5,
@@ -44,7 +44,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT105",
+    "code": "DAT105",
     "block": "A+",
     "name": "Datorarkitektur",
     "points": 7.5,
@@ -55,7 +55,7 @@
   },
   {
     "institution": "32",
-    "courseCode": "EEN020",
+    "code": "EEN020",
     "block": "C",
     "name": "Datorseende",
     "points": 7.5,
@@ -66,7 +66,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA184",
+    "code": "TDA184",
     "block": "A",
     "name": "Beräkningsmodeller",
     "points": 7.5,
@@ -77,14 +77,14 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA251",
+    "code": "TDA251",
     "block": "C",
     "name": "Algoritmer, fortsättningskurs",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TDA352",
+    "code": "TDA352",
     "block": "D",
     "name": "Kryptografi",
     "points": 7.5,
@@ -95,7 +95,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA362",
+    "code": "TDA362",
     "block": "D+",
     "name": "Computer graphics",
     "points": 7.5,
@@ -106,7 +106,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA452",
+    "code": "TDA452",
     "block": "C",
     "name": "Funktionell programmering",
     "points": 7.5,
@@ -117,14 +117,14 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA507",
+    "code": "TDA507",
     "block": "A",
     "name": "Beräkningsmetoder inom bioinformatik",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "DAT340",
+    "code": "DAT340",
     "block": "B",
     "name": "Tillämpad maskininlärning",
     "points": 7.5,
@@ -135,7 +135,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "EDA223",
+    "code": "EDA223",
     "block": "B+",
     "name": "Realtidssystem",
     "points": 7.5,
@@ -146,7 +146,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "EDA263",
+    "code": "EDA263",
     "block": "C+",
     "name": "Datasäkerhet",
     "points": 7.5,
@@ -157,14 +157,14 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA206",
+    "code": "TDA206",
     "block": "A",
     "name": "Diskret optimering",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TDA342",
+    "code": "TDA342",
     "block": "C",
     "name": "Avancerad funktionell programmering",
     "points": 7.5,
@@ -175,7 +175,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "TIN175",
+    "code": "TIN175",
     "block": "D+",
     "name": "Introduktion till artificiell intelligens",
     "points": 7.5,
@@ -187,7 +187,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT280",
+    "code": "DAT280",
     "block": "C",
     "name": "Parallell funktionell programmering",
     "points": 7.5,
@@ -198,7 +198,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT345",
+    "code": "DAT345",
     "block": "A",
     "name": "Tekniker för storskalig datahantering",
     "points": 7.5,
@@ -209,7 +209,7 @@
   },
   {
     "institution": "37",
-    "courseCode": "EDA491",
+    "code": "EDA491",
     "block": "B+",
     "name": "Nätverkssäkerhet",
     "points": 7.5,
@@ -220,21 +220,21 @@
   },
   {
     "institution": "37",
-    "courseCode": "TDA231",
+    "code": "TDA231",
     "block": "D+",
     "name": "Algoritmer för maskininlärning och slutledning",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TDA283",
+    "code": "TDA283",
     "block": "A",
     "name": "Kompilatorkonstruktion",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "TDA602",
+    "code": "TDA602",
     "block": "A+",
     "name": "Språkbaserad datasäkerhet",
     "points": 7.5,
@@ -245,14 +245,14 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT085",
+    "code": "DAT085",
     "block": "",
     "name": "Datavetenskapligt projekt",
     "points": 7.5
   },
   {
     "institution": "32",
-    "courseCode": "SSY340",
+    "code": "SSY340",
     "block": "A",
     "name": "Djup maskininlärning",
     "points": 7.5,
@@ -263,28 +263,28 @@
   },
   {
     "institution": "37",
-    "courseCode": "DAT315",
+    "code": "DAT315",
     "block": "A",
     "name": "Datavetaren i samhället",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "DAT235",
+    "code": "DAT235",
     "block": "A",
     "name": "Forskningsinriktad kurs inom data- och informationsteknik",
     "points": 7.5
   },
   {
     "institution": "37",
-    "courseCode": "DATX05",
+    "code": "DATX05",
     "block": "",
     "name": "Masterexamensarbete vid Data- och informationsteknik",
     "points": 30
   },
   {
     "institution": "37",
-    "courseCode": "DATX60",
+    "code": "DATX60",
     "block": "",
     "name": "Masterexamensarbete vid Data- och informationsteknik, del A",
     "points": 30

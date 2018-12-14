@@ -9,7 +9,7 @@ export interface YearFragment_periods_courses {
   __typename: "Course";
   code: string;
   name: string;
-  points: number | null;
+  points: number;
 }
 
 export interface YearFragment_periods {
@@ -20,6 +20,6 @@ export interface YearFragment_periods {
 
 export interface YearFragment {
   __typename: "StudyYear";
-  year: string | null;
+  year: number | null;
   periods: YearFragment_periods[];
 }

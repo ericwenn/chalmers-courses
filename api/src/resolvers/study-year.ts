@@ -1,5 +1,5 @@
-import { Context } from 'src/context';
-import { StudyYearResolvers } from 'src/generated/graphqlgen';
+import { Context } from '../context';
+import { StudyYearResolvers } from '../generated/graphqlgen';
 
 export const StudyYear: StudyYearResolvers.Type = {
   ...StudyYearResolvers.defaultResolvers,

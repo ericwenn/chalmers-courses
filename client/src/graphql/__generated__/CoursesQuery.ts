@@ -36,7 +36,7 @@ export interface CoursesQuery_program_years_periods_courses {
   __typename: "Course";
   code: string;
   name: string;
-  points: number | null;
+  points: number;
 }
 
 export interface CoursesQuery_program_years_periods {
@@ -47,7 +47,7 @@ export interface CoursesQuery_program_years_periods {
 
 export interface CoursesQuery_program_years {
   __typename: "StudyYear";
-  year: string | null;
+  year: number | null;
   periods: CoursesQuery_program_years_periods[];
 }
 

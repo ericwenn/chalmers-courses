@@ -9,5 +9,5 @@ export interface CourseFragment {
   __typename: "Course";
   code: string;
   name: string;
-  points: number | null;
+  points: number;
 }

@@ -5,6 +5,7 @@ import { connectToDatabase } from './lib/connect-to-database';
 import { loadSchema } from './lib/load-schema';
 import * as resolvers from './resolvers';
 
+const resolvers2: any = resolvers;
 const {
   MONGO_URL = 'mongodb://localhost:27017/ccourses',
 } = process.env;
@@ -21,7 +22,7 @@ const prepareServer = async (callback: (server: ApolloServer) => void) => {
   const server = new ApolloServer({
     typeDefs,
     dataSources,
-    resolvers,
+    resolvers: resolvers2,
   });
   callback(server);
 };

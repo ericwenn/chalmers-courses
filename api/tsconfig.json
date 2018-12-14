@@ -11,6 +11,7 @@
     "sourceMap": true,
     "allowJs": true,
     "outDir": "dist",
+    "strictFunctionTypes":false,
     "resolveJsonModule": true,
     "lib": [
       "es6",

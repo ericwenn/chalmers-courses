@@ -9,7 +9,7 @@ export interface PeriodFragment_courses {
   __typename: "Course";
   code: string;
   name: string;
-  points: number | null;
+  points: number;
 }
 
 export interface PeriodFragment {

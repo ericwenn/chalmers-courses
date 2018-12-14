@@ -1,5 +1,5 @@
-import { Context } from 'src/context';
-import { CompulsoryElectiveRequirementResolvers, CompulsoryRequirementResolvers } from 'src/generated/graphqlgen';
+import { Context } from '../context';
+import { CompulsoryElectiveRequirementResolvers, CompulsoryRequirementResolvers } from '../generated/graphqlgen';
 
 export const Requirement = {
   __resolveType: async ({ type }: any) => {

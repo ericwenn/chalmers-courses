@@ -27,6 +27,7 @@ export interface Course {
   block: '' | 'A' | 'B' | 'C' | 'D' | 'A+' | 'B+' | 'C+' | 'D+';
   name: string;
   points: number;
+  moments?: any[];
 }
 
 export interface Requirement {

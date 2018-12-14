@@ -1,5 +1,5 @@
-import { Context } from 'src/context';
-import { QueryResolvers } from 'src/generated/graphqlgen';
+import { Context } from '../context';
+import { QueryResolvers } from '../generated/graphqlgen';
 
 export const Query: QueryResolvers.Type = {
   // courses: async (_: any, {}, { dataSources }: Context) => {

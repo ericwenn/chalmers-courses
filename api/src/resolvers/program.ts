@@ -1,5 +1,5 @@
 import { Context } from 'src/context';
-import { ProgramResolvers } from 'src/generated/graphqlgen';
+import { ProgramResolvers } from '../generated/graphqlgen';
 
 export const Program: ProgramResolvers.Type = {
   ...ProgramResolvers.defaultResolvers,
