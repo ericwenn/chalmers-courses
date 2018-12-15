@@ -1,0 +1,209 @@
+{
+  "name": "TKIEK - INDUSTRIELL EKONOMI, CIVILINGENJÖR",
+  "courses": [
+    {
+      "code": "MVE012",
+      "name": "Inledande matematik",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Inledande matematik, Laboration",
+          "points": 1.5
+        },
+        {
+          "name": "Inledande matematik, Tentamen",
+          "points": 6
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28022&parsergrp=2"
+    },
+    {
+      "code": "TEK040",
+      "name": "Introduktionskurs: Industriell ekonomi och organisation",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Introduktionskurs: Industriell ekonomi och organisation, Tentamen",
+          "points": 7.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27611&parsergrp=2"
+    },
+    {
+      "code": "IDY023",
+      "name": "Ekonomisk analys 1: Ekonomisk kalkylering och styrning, del A",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Ekonomisk analys 1: Ekonomisk kalkylering och styrning, del A, Dugga",
+          "points": 3
+        },
+        {
+          "name": "Ekonomisk analys 1: Ekonomisk kalkylering och styrning, del B, Projekt",
+          "points": 3
+        },
+        {
+          "name": "Ekonomisk analys 1: Ekonomisk kalkylering och styrning, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28301&parsergrp=2"
+    },
+    {
+      "code": "MVE017",
+      "name": "Matematisk analys i en variabel",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Matematisk analys i en variabel, Tentamen",
+          "points": 6
+        },
+        {
+          "name": "Matematisk analys i en variabel, Laboration",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28427&parsergrp=2"
+    },
+    {
+      "code": "IDY029",
+      "name": "Ekonomisk analys 2: Externanalys, del A",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Ekonomisk analys 2: Externanalys, del A, Dugga",
+          "points": 3
+        },
+        {
+          "name": "Ekonomisk analys 2: Externanalys, del B, Projekt",
+          "points": 3
+        },
+        {
+          "name": "Ekonomisk analys 2: Externanalys, del C, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27762&parsergrp=2"
+    },
+    {
+      "code": "TDA143",
+      "name": "Programmerade system",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Programmerade system, Tentamen",
+          "points": 4.5
+        },
+        {
+          "name": "Programmerade system, Laboration",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27610&parsergrp=2"
+    },
+    {
+      "code": "MVE022",
+      "name": "Linjär algebra",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Linjär algebra, Tentamen",
+          "points": 6
+        },
+        {
+          "name": "Linjär algebra, Laboration",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27878&parsergrp=2"
+    },
+    {
+      "code": "TIF190",
+      "name": "Fysik för ingenjörer 1: Fysik för hållbar utveckling",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Fysik för ingenjörer 1: Fysik för hållbar utveckling, Tentamen",
+          "points": 6
+        },
+        {
+          "name": "Fysik för ingenjörer 1: Fysik för hållbar utveckling, Laboration",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27949&parsergrp=2"
+    }
+  ],
+  "grades": [
+    {
+      "grade": 1,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1467&grade=1&conc_id=-1&parsergrp=1",
+      "periods": {
+        "Läsperiod 1": [
+          "MVE012",
+          "TEK040"
+        ],
+        "Läsperiod 2": [
+          "IDY023",
+          "MVE017"
+        ],
+        "Läsperiod 3": [
+          "IDY029",
+          "TDA143"
+        ],
+        "Läsperiod 4": [
+          "MVE022",
+          "TIF190"
+        ]
+      },
+      "types": {
+        "Obligatoriska kurser": [
+          "MVE012",
+          "TEK040",
+          "IDY023",
+          "MVE017",
+          "IDY029",
+          "TDA143",
+          "MVE022",
+          "TIF190"
+        ]
+      }
+    },
+    {
+      "grade": 2,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1467&grade=2&conc_id=-1&parsergrp=1",
+      "periods": {},
+      "types": {}
+    },
+    {
+      "grade": 3,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1467&grade=3&conc_id=-1&parsergrp=1",
+      "periods": {},
+      "types": {}
+    }
+  ],
+  "requirements": [
+    {
+      "type": "compulsive",
+      "courses": [
+        "MVE012",
+        "TEK040",
+        "IDY023",
+        "MVE017",
+        "IDY029",
+        "TDA143",
+        "MVE022",
+        "TIF190"
+      ]
+    }
+  ],
+  "type": "bachelor"
+}

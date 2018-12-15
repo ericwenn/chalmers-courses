@@ -1,1 +1,939 @@
-{"name":"TKARK - ARKITEKTUR","courses":[{"code":"AFT043","name":"Arkitektur - en introduktion, del A","block":"","points":10.5,"moments":[{"name":"Arkitektur - en introduktion, del A, Projekt","points":5},{"name":"Arkitektur - en introduktion, del B, Konstruktionsövning + lab","points":1.5},{"name":"Arkitektur - en introduktion, del C, Laboration","points":2},{"name":"Arkitektur - en introduktion, del D, Laboration","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28169&parsergrp=2"},{"code":"ATH062","name":"Arkitekturhistoria","block":"","points":4.5,"moments":[{"name":"Arkitekturhistoria, Inlämningsuppgift","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28402&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"AFT081","name":"Arkitektur och rumsgestaltning, del A","block":"","points":12,"moments":[{"name":"Arkitektur och rumsgestaltning, del A, Projekt","points":7.5},{"name":"Arkitektur och rumsgestaltning, del B, Laboration","points":3},{"name":"Arkitektur och rumsgestaltning, del C, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28332&parsergrp=2"},{"code":"ATH062","name":"Arkitekturhistoria","block":"","points":3,"moments":[{"name":"Arkitekturhistoria, Inlämningsuppgift","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28402&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"AFT077","name":"Form och teknik, del A","block":"","points":7.5,"moments":[{"name":"Form och teknik, del A, Inlämningsuppgift","points":4.5},{"name":"Form och teknik, del B, Laboration","points":1.5},{"name":"Form och teknik, del C, Konstruktionsövning + lab","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27364&parsergrp=2"},{"code":"ARK253","name":"Arkitektur, miljö och hållbar utveckling, del A","block":"","points":7.5,"moments":[{"name":"Arkitektur, miljö och hållbar utveckling, del A, Inlämningsuppgift","points":4.5},{"name":"Arkitektur, miljö och hållbar utveckling, del B, Inlämningsuppgift","points":1.5},{"name":"Arkitektur, miljö och hållbar utveckling, del C, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27725&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2.5,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"AFT062","name":"Boendets rum, del A","block":"","points":12,"moments":[{"name":"Boendets rum, del A, Projekt","points":5.5},{"name":"Boendets rum, del B, Fältövning","points":1.5},{"name":"Boendets rum, del C, Inlämningsuppgift","points":3},{"name":"Boendets rum, del D, Inlämningsuppgift","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28038&parsergrp=2"},{"code":"ARK446","name":"Att undersöka arkitektur 1","block":"","points":3,"moments":[{"name":"Att undersöka arkitektur 1, Projekt","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28048&parsergrp=2"},{"code":"AFO190","name":"Berlin: Exkursion","block":"","points":3,"moments":[{"name":"Berlin: Exkursion, Studieresa","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28235&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"ADM025","name":"BIM - Building information modelling","block":"","points":4.5,"moments":[{"name":"BIM - Building information modelling, Övning","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"},{"code":"ARK064","name":"Bevarande och omvandling, del A","block":"","points":15,"moments":[{"name":"Bevarande och omvandling, del A, Projekt","points":8.5},{"name":"Bevarande och omvandling, del B, Inlämningsuppgift","points":4.5},{"name":"Bevarande och omvandling, del C, Inlämningsuppgift","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27285&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"ARK063","name":"Stadsbostaden, del A","block":"","points":15,"moments":[{"name":"Stadsbostaden, del A, Projekt","points":7},{"name":"Stadsbostaden, del B, Laboration","points":1.5},{"name":"Stadsbostaden, del C, Inlämningsuppgift","points":1.5},{"name":"Stadsbostaden, del D, Projekt","points":3},{"name":"Stadsbostaden, del E, Inlämningsuppgift","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28058&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"AST121","name":"Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner","block":"","points":7.5,"moments":[{"name":"Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner, Övning","points":7.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27995&parsergrp=2"},{"code":"ARK505","name":"Arbetets rum, del A","block":"","points":15,"moments":[{"name":"Arbetets rum, del A, Projekt","points":10.5},{"name":"Arbetets rum, del B, Projekt","points":3},{"name":"Arbetets rum, del C, Laboration","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27721&parsergrp=2"},{"code":"ARK025","name":"Arkitektur: Aktuella frågor","block":"","points":1.5,"moments":[{"name":"Arkitektur: Aktuella frågor, Projekt","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27612&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2.5,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"ARK451","name":"Att undersöka arkitektur 2","block":"","points":3,"moments":[{"name":"Att undersöka arkitektur 2, Projekt","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28083&parsergrp=2"},{"code":"ARK512","name":"Stadsrum","block":"","points":12,"moments":[{"name":"Stadsrum, Projekt","points":9},{"name":"Stadsrum, Projekt","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28631&parsergrp=2"},{"code":"ARK025","name":"Arkitektur: Aktuella frågor","block":"","points":3,"moments":[{"name":"Arkitektur: Aktuella frågor, Projekt","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27612&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"ASB130","name":"Rom: Exkursion","block":"","points":3,"moments":[{"name":"Rom: Exkursion, Studieresa","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27986&parsergrp=2"},{"code":"ADM025","name":"BIM - Building information modelling","block":"","points":4.5,"moments":[{"name":"BIM - Building information modelling, Övning","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"},{"code":"ARK516","name":"Stadslandskap, del A","block":"","points":15,"moments":[{"name":"Stadslandskap, del A, Projekt","points":12},{"name":"Stadslandskap, del B, Projekt","points":1.5},{"name":"Stadslandskap, del C, Laboration","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28632&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"ARK481","name":"Byggnaden som system, del A","block":"","points":15,"moments":[{"name":"Byggnaden som system, del A, Projekt","points":8},{"name":"Byggnaden som system, del B, Konstruktionsövning + lab","points":3.5},{"name":"Byggnaden som system, del C, Laboration","points":1.5},{"name":"Byggnaden som system, del D, Inlämningsuppgift","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28010&parsergrp=2"},{"code":"AFO170","name":"Kropp, rum, bilder","block":"","points":1.5,"moments":[{"name":"Kropp, rum, bilder, Övning","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"},{"code":"AST121","name":"Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner","block":"","points":7.5,"moments":[{"name":"Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner, Övning","points":7.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27995&parsergrp=2"},{"code":"AKA083","name":"Arkitektur: teori och text","block":"","points":12,"moments":[{"name":"Arkitektur: teori och text, Inlämningsuppgift","points":12}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28405&parsergrp=2"},{"code":"ARK570","name":"Modellering med analoga och digitala verktyg","block":"","points":3,"moments":[{"name":"Modellering med analoga och digitala verktyg, Laboration","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27324&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2.5,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"ARK430","name":"Datorvisualisering i 3 dimensioner","block":"","points":2,"moments":[{"name":"Datorvisualisering i 3 dimensioner, Övning","points":2}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"},{"code":"ARK561","name":"Arkitektur och genus","block":"","points":1.5,"moments":[{"name":"Arkitektur och genus, Inlämningsuppgift","points":1.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"},{"code":"AFT106","name":"Från idé till färdig byggnad, del A","block":"","points":12,"moments":[{"name":"Från idé till färdig byggnad, del A, Projekt","points":7.5},{"name":"Från idé till färdig byggnad, del B, Projekt","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27805&parsergrp=2"},{"code":"AMA010","name":"Paris: Exkursion","block":"","points":3,"moments":[{"name":"Paris: Exkursion, Studieresa","points":3}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27985&parsergrp=2"},{"code":"ACE025","name":"Arkitektur: Praktik","block":"","points":4.5,"moments":[{"name":"Arkitektur: Praktik, Projekt","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28583&parsergrp=2"},{"code":"ADM020","name":"Ritteknik: CAD för arkitekter","block":"","points":4.5,"moments":[{"name":"Ritteknik: CAD för arkitekter, Övning","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28234&parsergrp=2"},{"code":"ADM025","name":"BIM - Building information modelling","block":"","points":4.5,"moments":[{"name":"BIM - Building information modelling, Övning","points":4.5}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"},{"code":"ACEX05","name":"Kandidatarbete i Arkitektur","block":"","points":15,"moments":[{"name":"Kandidatarbete i Arkitektur, Projekt","points":15}],"link":"/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27214&parsergrp=2"}],"grades":[{"grade":1,"link":"https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=1&conc_id=-1&parsergrp=1","periods":{"Läsperiod 1":["AFT043","ATH062","AFO170"],"Läsperiod 2":["AFT081","ATH062","AFO170"],"Läsperiod 3":["AFT077","ARK253","ARK430","ARK561"],"Läsperiod 4":["AFT062","ARK446","AFO190","ARK430","ARK561"],"Ej bundet till läsperiod":["ADM025"]},"types":{"Obligatoriska kurser":["AFT043","ATH062","AFT081","AFT077","ARK253","AFT062","ARK446"],"Frivilliga kurser":["AFO170","ARK430","ARK561","AFO190","ADM025"]}},{"grade":2,"link":"https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=2&conc_id=-1&parsergrp=1","periods":{"Läsperiod 1":["ARK064","AFO170"],"Läsperiod 2":["ARK063","AFO170","AST121"],"Läsperiod 3":["ARK505","ARK025","ARK430","ARK561"],"Läsperiod 4":["ARK451","ARK512","ARK025","ARK430","ARK561","ASB130"],"Ej bundet till läsperiod":["ADM025"]},"types":{"Obligatoriska kurser":["ARK064","ARK063","ARK505","ARK451","ARK512"],"Frivilliga kurser":["AFO170","AST121","ARK025","ARK430","ARK561","ASB130","ADM025"]}},{"grade":3,"link":"https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=3&conc_id=-1&parsergrp=1","periods":{"Läsperiod 1":["ARK516","AFO170"],"Läsperiod 2":["ARK481","AFO170","AST121"],"Läsperiod 3":["AKA083","ARK570","ARK430","ARK561"],"Läsperiod 4":["ARK430","ARK561","AFT106","AMA010"],"Ej bundet till läsperiod":["ACE025","ADM020","ADM025","ACEX05"]},"types":{"Obligatoriska kurser":["ARK516","ARK481","AKA083","ARK570"],"Frivilliga kurser":["AFO170","AST121","ARK430","ARK561","AFT106","AMA010","ACE025","ADM020","ADM025","ACEX05"]}}],"requirements":[],"type":"bachelor"}
+{
+  "name": "TKARK - ARKITEKTUR",
+  "courses": [
+    {
+      "code": "AFT043",
+      "name": "Arkitektur - en introduktion, del A",
+      "block": "",
+      "points": 10.5,
+      "moments": [
+        {
+          "name": "Arkitektur - en introduktion, del A, Projekt",
+          "points": 5
+        },
+        {
+          "name": "Arkitektur - en introduktion, del B, Konstruktionsövning + lab",
+          "points": 1.5
+        },
+        {
+          "name": "Arkitektur - en introduktion, del C, Laboration",
+          "points": 2
+        },
+        {
+          "name": "Arkitektur - en introduktion, del D, Laboration",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28169&parsergrp=2"
+    },
+    {
+      "code": "ATH062",
+      "name": "Arkitekturhistoria",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "Arkitekturhistoria, Inlämningsuppgift",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28402&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "AFT081",
+      "name": "Arkitektur och rumsgestaltning, del A",
+      "block": "",
+      "points": 12,
+      "moments": [
+        {
+          "name": "Arkitektur och rumsgestaltning, del A, Projekt",
+          "points": 7.5
+        },
+        {
+          "name": "Arkitektur och rumsgestaltning, del B, Laboration",
+          "points": 3
+        },
+        {
+          "name": "Arkitektur och rumsgestaltning, del C, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28332&parsergrp=2"
+    },
+    {
+      "code": "ATH062",
+      "name": "Arkitekturhistoria",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Arkitekturhistoria, Inlämningsuppgift",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28402&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "AFT077",
+      "name": "Form och teknik, del A",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Form och teknik, del A, Inlämningsuppgift",
+          "points": 4.5
+        },
+        {
+          "name": "Form och teknik, del B, Laboration",
+          "points": 1.5
+        },
+        {
+          "name": "Form och teknik, del C, Konstruktionsövning + lab",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27364&parsergrp=2"
+    },
+    {
+      "code": "ARK253",
+      "name": "Arkitektur, miljö och hållbar utveckling, del A",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Arkitektur, miljö och hållbar utveckling, del A, Inlämningsuppgift",
+          "points": 4.5
+        },
+        {
+          "name": "Arkitektur, miljö och hållbar utveckling, del B, Inlämningsuppgift",
+          "points": 1.5
+        },
+        {
+          "name": "Arkitektur, miljö och hållbar utveckling, del C, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27725&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2.5,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "AFT062",
+      "name": "Boendets rum, del A",
+      "block": "",
+      "points": 12,
+      "moments": [
+        {
+          "name": "Boendets rum, del A, Projekt",
+          "points": 5.5
+        },
+        {
+          "name": "Boendets rum, del B, Fältövning",
+          "points": 1.5
+        },
+        {
+          "name": "Boendets rum, del C, Inlämningsuppgift",
+          "points": 3
+        },
+        {
+          "name": "Boendets rum, del D, Inlämningsuppgift",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28038&parsergrp=2"
+    },
+    {
+      "code": "ARK446",
+      "name": "Att undersöka arkitektur 1",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Att undersöka arkitektur 1, Projekt",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28048&parsergrp=2"
+    },
+    {
+      "code": "AFO190",
+      "name": "Berlin: Exkursion",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Berlin: Exkursion, Studieresa",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28235&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "ADM025",
+      "name": "BIM - Building information modelling",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "BIM - Building information modelling, Övning",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"
+    },
+    {
+      "code": "ARK064",
+      "name": "Bevarande och omvandling, del A",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Bevarande och omvandling, del A, Projekt",
+          "points": 8.5
+        },
+        {
+          "name": "Bevarande och omvandling, del B, Inlämningsuppgift",
+          "points": 4.5
+        },
+        {
+          "name": "Bevarande och omvandling, del C, Inlämningsuppgift",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27285&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "ARK063",
+      "name": "Stadsbostaden, del A",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Stadsbostaden, del A, Projekt",
+          "points": 7
+        },
+        {
+          "name": "Stadsbostaden, del B, Laboration",
+          "points": 1.5
+        },
+        {
+          "name": "Stadsbostaden, del C, Inlämningsuppgift",
+          "points": 1.5
+        },
+        {
+          "name": "Stadsbostaden, del D, Projekt",
+          "points": 3
+        },
+        {
+          "name": "Stadsbostaden, del E, Inlämningsuppgift",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28058&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "AST121",
+      "name": "Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner, Övning",
+          "points": 7.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27995&parsergrp=2"
+    },
+    {
+      "code": "ARK505",
+      "name": "Arbetets rum, del A",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Arbetets rum, del A, Projekt",
+          "points": 10.5
+        },
+        {
+          "name": "Arbetets rum, del B, Projekt",
+          "points": 3
+        },
+        {
+          "name": "Arbetets rum, del C, Laboration",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27721&parsergrp=2"
+    },
+    {
+      "code": "ARK025",
+      "name": "Arkitektur: Aktuella frågor",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur: Aktuella frågor, Projekt",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27612&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2.5,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "ARK451",
+      "name": "Att undersöka arkitektur 2",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Att undersöka arkitektur 2, Projekt",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28083&parsergrp=2"
+    },
+    {
+      "code": "ARK512",
+      "name": "Stadsrum",
+      "block": "",
+      "points": 12,
+      "moments": [
+        {
+          "name": "Stadsrum, Projekt",
+          "points": 9
+        },
+        {
+          "name": "Stadsrum, Projekt",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28631&parsergrp=2"
+    },
+    {
+      "code": "ARK025",
+      "name": "Arkitektur: Aktuella frågor",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Arkitektur: Aktuella frågor, Projekt",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27612&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "ASB130",
+      "name": "Rom: Exkursion",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Rom: Exkursion, Studieresa",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27986&parsergrp=2"
+    },
+    {
+      "code": "ADM025",
+      "name": "BIM - Building information modelling",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "BIM - Building information modelling, Övning",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"
+    },
+    {
+      "code": "ARK516",
+      "name": "Stadslandskap, del A",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Stadslandskap, del A, Projekt",
+          "points": 12
+        },
+        {
+          "name": "Stadslandskap, del B, Projekt",
+          "points": 1.5
+        },
+        {
+          "name": "Stadslandskap, del C, Laboration",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28632&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "ARK481",
+      "name": "Byggnaden som system, del A",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Byggnaden som system, del A, Projekt",
+          "points": 8
+        },
+        {
+          "name": "Byggnaden som system, del B, Konstruktionsövning + lab",
+          "points": 3.5
+        },
+        {
+          "name": "Byggnaden som system, del C, Laboration",
+          "points": 1.5
+        },
+        {
+          "name": "Byggnaden som system, del D, Inlämningsuppgift",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28010&parsergrp=2"
+    },
+    {
+      "code": "AFO170",
+      "name": "Kropp, rum, bilder",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Kropp, rum, bilder, Övning",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28217&parsergrp=2"
+    },
+    {
+      "code": "AST121",
+      "name": "Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner",
+      "block": "",
+      "points": 7.5,
+      "moments": [
+        {
+          "name": "Geografiskt informationssystem: Geografisk modellering i två och tre dimensioner, Övning",
+          "points": 7.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27995&parsergrp=2"
+    },
+    {
+      "code": "AKA083",
+      "name": "Arkitektur: teori och text",
+      "block": "",
+      "points": 12,
+      "moments": [
+        {
+          "name": "Arkitektur: teori och text, Inlämningsuppgift",
+          "points": 12
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28405&parsergrp=2"
+    },
+    {
+      "code": "ARK570",
+      "name": "Modellering med analoga och digitala verktyg",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Modellering med analoga och digitala verktyg, Laboration",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27324&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2.5,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "ARK430",
+      "name": "Datorvisualisering i 3 dimensioner",
+      "block": "",
+      "points": 2,
+      "moments": [
+        {
+          "name": "Datorvisualisering i 3 dimensioner, Övning",
+          "points": 2
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28326&parsergrp=2"
+    },
+    {
+      "code": "ARK561",
+      "name": "Arkitektur och genus",
+      "block": "",
+      "points": 1.5,
+      "moments": [
+        {
+          "name": "Arkitektur och genus, Inlämningsuppgift",
+          "points": 1.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27209&parsergrp=2"
+    },
+    {
+      "code": "AFT106",
+      "name": "Från idé till färdig byggnad, del A",
+      "block": "",
+      "points": 12,
+      "moments": [
+        {
+          "name": "Från idé till färdig byggnad, del A, Projekt",
+          "points": 7.5
+        },
+        {
+          "name": "Från idé till färdig byggnad, del B, Projekt",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27805&parsergrp=2"
+    },
+    {
+      "code": "AMA010",
+      "name": "Paris: Exkursion",
+      "block": "",
+      "points": 3,
+      "moments": [
+        {
+          "name": "Paris: Exkursion, Studieresa",
+          "points": 3
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27985&parsergrp=2"
+    },
+    {
+      "code": "ACE025",
+      "name": "Arkitektur: Praktik",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "Arkitektur: Praktik, Projekt",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28583&parsergrp=2"
+    },
+    {
+      "code": "ADM020",
+      "name": "Ritteknik: CAD för arkitekter",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "Ritteknik: CAD för arkitekter, Övning",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28234&parsergrp=2"
+    },
+    {
+      "code": "ADM025",
+      "name": "BIM - Building information modelling",
+      "block": "",
+      "points": 4.5,
+      "moments": [
+        {
+          "name": "BIM - Building information modelling, Övning",
+          "points": 4.5
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=28151&parsergrp=2"
+    },
+    {
+      "code": "ACEX05",
+      "name": "Kandidatarbete i Arkitektur",
+      "block": "",
+      "points": 15,
+      "moments": [
+        {
+          "name": "Kandidatarbete i Arkitektur, Projekt",
+          "points": 15
+        }
+      ],
+      "link": "/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?course_id=27214&parsergrp=2"
+    }
+  ],
+  "grades": [
+    {
+      "grade": 1,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=1&conc_id=-1&parsergrp=1",
+      "periods": {
+        "Läsperiod 1": [
+          "AFT043",
+          "ATH062",
+          "AFO170"
+        ],
+        "Läsperiod 2": [
+          "AFT081",
+          "ATH062",
+          "AFO170"
+        ],
+        "Läsperiod 3": [
+          "AFT077",
+          "ARK253",
+          "ARK430",
+          "ARK561"
+        ],
+        "Läsperiod 4": [
+          "AFT062",
+          "ARK446",
+          "AFO190",
+          "ARK430",
+          "ARK561"
+        ],
+        "Ej bundet till läsperiod": [
+          "ADM025"
+        ]
+      },
+      "types": {
+        "Obligatoriska kurser": [
+          "AFT043",
+          "ATH062",
+          "AFT081",
+          "AFT077",
+          "ARK253",
+          "AFT062",
+          "ARK446"
+        ],
+        "Frivilliga kurser": [
+          "AFO170",
+          "ARK430",
+          "ARK561",
+          "AFO190",
+          "ADM025"
+        ]
+      }
+    },
+    {
+      "grade": 2,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=2&conc_id=-1&parsergrp=1",
+      "periods": {
+        "Läsperiod 1": [
+          "ARK064",
+          "AFO170"
+        ],
+        "Läsperiod 2": [
+          "ARK063",
+          "AFO170",
+          "AST121"
+        ],
+        "Läsperiod 3": [
+          "ARK505",
+          "ARK025",
+          "ARK430",
+          "ARK561"
+        ],
+        "Läsperiod 4": [
+          "ARK451",
+          "ARK512",
+          "ARK025",
+          "ARK430",
+          "ARK561",
+          "ASB130"
+        ],
+        "Ej bundet till läsperiod": [
+          "ADM025"
+        ]
+      },
+      "types": {
+        "Obligatoriska kurser": [
+          "ARK064",
+          "ARK063",
+          "ARK505",
+          "ARK451",
+          "ARK512"
+        ],
+        "Frivilliga kurser": [
+          "AFO170",
+          "AST121",
+          "ARK025",
+          "ARK430",
+          "ARK561",
+          "ASB130",
+          "ADM025"
+        ]
+      }
+    },
+    {
+      "grade": 3,
+      "link": "https://student.portal.chalmers.se/sv/chalmersstudier/programinformation/Sidor/SokProgramutbudet.aspx?program_id=1461&grade=3&conc_id=-1&parsergrp=1",
+      "periods": {
+        "Läsperiod 1": [
+          "ARK516",
+          "AFO170"
+        ],
+        "Läsperiod 2": [
+          "ARK481",
+          "AFO170",
+          "AST121"
+        ],
+        "Läsperiod 3": [
+          "AKA083",
+          "ARK570",
+          "ARK430",
+          "ARK561"
+        ],
+        "Läsperiod 4": [
+          "ARK430",
+          "ARK561",
+          "AFT106",
+          "AMA010"
+        ],
+        "Ej bundet till läsperiod": [
+          "ACE025",
+          "ADM020",
+          "ADM025",
+          "ACEX05"
+        ]
+      },
+      "types": {
+        "Obligatoriska kurser": [
+          "ARK516",
+          "ARK481",
+          "AKA083",
+          "ARK570"
+        ],
+        "Frivilliga kurser": [
+          "AFO170",
+          "AST121",
+          "ARK430",
+          "ARK561",
+          "AFT106",
+          "AMA010",
+          "ACE025",
+          "ADM020",
+          "ADM025",
+          "ACEX05"
+        ]
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "compulsive",
+      "courses": [
+        "AFT043",
+        "ATH062",
+        "AFT081",
+        "AFT077",
+        "ARK253",
+        "AFT062",
+        "ARK446"
+      ]
+    },
+    {
+      "type": "compulsive",
+      "courses": [
+        "ARK064",
+        "ARK063",
+        "ARK505",
+        "ARK451",
+        "ARK512"
+      ]
+    },
+    {
+      "type": "compulsive",
+      "courses": [
+        "ARK516",
+        "ARK481",
+        "AKA083",
+        "ARK570"
+      ]
+    }
+  ],
+  "type": "bachelor"
+}

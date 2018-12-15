@@ -113,10 +113,13 @@ const scrape = (programId, grade) => {
 
     // Populate compulsory
     let compulsive = null;
-    const compulsiveRegex = /obligatorisk/;
+    const compulsiveRegex = /obligatorisk/i;
     for (const type of Object.keys(types)) {
       if (type.match(compulsiveRegex)) {
-        compulsive = types[type];
+        compulsive = {
+          type: 'compulsive',
+          courses: types[type]
+        }
         break;
       }
     };
@@ -182,7 +185,7 @@ const scrapeProgram = async programId => {
   return program;
 }
 
-const from = 1479; // 1460
+const from = 1460; // 1460
 const to = 1534; // 1543
 
 const main = async () => {
