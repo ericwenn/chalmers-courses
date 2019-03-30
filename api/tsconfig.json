@@ -19,15 +19,12 @@
       "dom.iterable",
       "esnext.asynciterable"
     ],
+    "paths": {
+      "graphql-scalar-objectid": ["src/@types/index.d.ts"]
+    },
     "baseUrl": "./",
-    "typeRoots": [ "./node_modules/@types/", "./@types/"]
   },
-  "include": [
-    "src/**/*"
-  ],
   "exclude": [
-    "**/node_modules",
-    "**/*.spec.ts",
-    "**/__tests__/*.ts"
+    "**/node_modules"
   ]
 }

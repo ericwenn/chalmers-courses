@@ -3,11 +3,12 @@
 import { GraphQLResolveInfo } from "graphql";
 import {
   Program,
-  StudyYear,
-  StudyPeriod,
+  Grade,
+  Period,
   Course,
   CompulsoryRequirement,
-  CompulsoryElectiveRequirement
+  CourseCompulsoryElectiveRequirement,
+  PointsCompulsoryElectiveRequirement
 } from "../data-sources/types";
 import { Context } from "../context";
 
@@ -21,7 +22,7 @@ type BlockEnum =
   | "C_PLUS"
   | "D"
   | "D_PLUS";
-type RequirementEnum = "COMPULSORY_ELECTIVE" | "COMPULSORY";
+type RequirementEnum = "courses" | "points" | "compulsory";
 
 export namespace QueryResolvers {
   export const defaultResolvers = {};
@@ -67,8 +68,16 @@ export namespace QueryResolvers {
 
 export namespace ProgramResolvers {
   export const defaultResolvers = {
+    _id: (parent: Program) => parent._id,
     name: (parent: Program) => parent.name
   };
+
+  export type _idResolver = (
+    parent: Program,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
 
   export type NameResolver = (
     parent: Program,
@@ -77,12 +86,12 @@ export namespace ProgramResolvers {
     info: GraphQLResolveInfo
   ) => string | Promise<string>;
 
-  export type YearsResolver = (
+  export type GradesResolver = (
     parent: Program,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
-  ) => StudyYear[] | Promise<StudyYear[]>;
+  ) => Grade[] | Promise<Grade[]>;
 
   export type RequirementsResolver = (
     parent: Program,
@@ -92,6 +101,13 @@ export namespace ProgramResolvers {
   ) => {}[] | Promise<{}[]>;
 
   export interface Type {
+    _id: (
+      parent: Program,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     name: (
       parent: Program,
       args: {},
@@ -99,12 +115,12 @@ export namespace ProgramResolvers {
       info: GraphQLResolveInfo
     ) => string | Promise<string>;
 
-    years: (
+    grades: (
       parent: Program,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
-    ) => StudyYear[] | Promise<StudyYear[]>;
+    ) => Grade[] | Promise<Grade[]>;
 
     requirements: (
       parent: Program,
@@ -115,72 +131,101 @@ export namespace ProgramResolvers {
   }
 }
 
-export namespace StudyYearResolvers {
+export namespace GradeResolvers {
   export const defaultResolvers = {
-    year: (parent: StudyYear) => parent.year
+    _id: (parent: Grade) => parent._id,
+    year: (parent: Grade) => parent.year
   };
 
+  export type _idResolver = (
+    parent: Grade,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
+
   export type YearResolver = (
-    parent: StudyYear,
+    parent: Grade,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => number | null | Promise<number | null>;
 
   export type PeriodsResolver = (
-    parent: StudyYear,
+    parent: Grade,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
-  ) => StudyPeriod[] | Promise<StudyPeriod[]>;
+  ) => Period[] | Promise<Period[]>;
 
   export interface Type {
+    _id: (
+      parent: Grade,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     year: (
-      parent: StudyYear,
+      parent: Grade,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
     ) => number | null | Promise<number | null>;
 
     periods: (
-      parent: StudyYear,
+      parent: Grade,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
-    ) => StudyPeriod[] | Promise<StudyPeriod[]>;
+    ) => Period[] | Promise<Period[]>;
   }
 }
 
-export namespace StudyPeriodResolvers {
+export namespace PeriodResolvers {
   export const defaultResolvers = {
-    name: (parent: StudyPeriod) => parent.name,
-    courses: (parent: StudyPeriod) => parent.courses
+    _id: (parent: Period) => parent._id,
+    name: (parent: Period) => parent.name
   };
 
+  export type _idResolver = (
+    parent: Period,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
+
   export type NameResolver = (
-    parent: StudyPeriod,
+    parent: Period,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => string | Promise<string>;
 
   export type CoursesResolver = (
-    parent: StudyPeriod,
+    parent: Period,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => Course[] | Promise<Course[]>;
 
   export interface Type {
+    _id: (
+      parent: Period,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     name: (
-      parent: StudyPeriod,
+      parent: Period,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
     ) => string | Promise<string>;
 
     courses: (
-      parent: StudyPeriod,
+      parent: Period,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
@@ -190,10 +235,18 @@ export namespace StudyPeriodResolvers {
 
 export namespace CourseResolvers {
   export const defaultResolvers = {
+    _id: (parent: Course) => parent._id,
     code: (parent: Course) => parent.code,
     name: (parent: Course) => parent.name,
     points: (parent: Course) => parent.points
   };
+
+  export type _idResolver = (
+    parent: Course,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
 
   export type NameResolver = (
     parent: Course,
@@ -224,6 +277,13 @@ export namespace CourseResolvers {
   ) => BlockEnum | Promise<BlockEnum>;
 
   export interface Type {
+    _id: (
+      parent: Course,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     name: (
       parent: Course,
       args: {},
@@ -255,7 +315,17 @@ export namespace CourseResolvers {
 }
 
 export namespace CompulsoryRequirementResolvers {
-  export const defaultResolvers = {};
+  export const defaultResolvers = {
+    _id: (parent: CompulsoryRequirement) => parent._id,
+    type: (parent: CompulsoryRequirement) => parent.type
+  };
+
+  export type _idResolver = (
+    parent: CompulsoryRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
 
   export type TypeResolver = (
     parent: CompulsoryRequirement,
@@ -272,6 +342,13 @@ export namespace CompulsoryRequirementResolvers {
   ) => Course[] | Promise<Course[]>;
 
   export interface Type {
+    _id: (
+      parent: CompulsoryRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     type: (
       parent: CompulsoryRequirement,
       args: {},
@@ -288,49 +365,131 @@ export namespace CompulsoryRequirementResolvers {
   }
 }
 
-export namespace CompulsoryElectiveRequirementResolvers {
+export namespace CourseCompulsoryElectiveRequirementResolvers {
   export const defaultResolvers = {
-    choose: (parent: CompulsoryElectiveRequirement) => parent.choose
+    _id: (parent: CourseCompulsoryElectiveRequirement) => parent._id,
+    type: (parent: CourseCompulsoryElectiveRequirement) => parent.type,
+    choose: (parent: CourseCompulsoryElectiveRequirement) => parent.choose
   };
 
+  export type _idResolver = (
+    parent: CourseCompulsoryElectiveRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
+
   export type TypeResolver = (
-    parent: CompulsoryElectiveRequirement,
+    parent: CourseCompulsoryElectiveRequirement,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => RequirementEnum | Promise<RequirementEnum>;
 
   export type ChooseResolver = (
-    parent: CompulsoryElectiveRequirement,
+    parent: CourseCompulsoryElectiveRequirement,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => number | Promise<number>;
 
   export type CoursesResolver = (
-    parent: CompulsoryElectiveRequirement,
+    parent: CourseCompulsoryElectiveRequirement,
     args: {},
     ctx: Context,
     info: GraphQLResolveInfo
   ) => Course[] | Promise<Course[]>;
 
   export interface Type {
+    _id: (
+      parent: CourseCompulsoryElectiveRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
     type: (
-      parent: CompulsoryElectiveRequirement,
+      parent: CourseCompulsoryElectiveRequirement,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
     ) => RequirementEnum | Promise<RequirementEnum>;
 
     choose: (
-      parent: CompulsoryElectiveRequirement,
+      parent: CourseCompulsoryElectiveRequirement,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
     ) => number | Promise<number>;
 
     courses: (
-      parent: CompulsoryElectiveRequirement,
+      parent: CourseCompulsoryElectiveRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => Course[] | Promise<Course[]>;
+  }
+}
+
+export namespace PointsCompulsoryElectiveRequirementResolvers {
+  export const defaultResolvers = {
+    _id: (parent: PointsCompulsoryElectiveRequirement) => parent._id,
+    type: (parent: PointsCompulsoryElectiveRequirement) => parent.type,
+    choose: (parent: PointsCompulsoryElectiveRequirement) => parent.choose
+  };
+
+  export type _idResolver = (
+    parent: PointsCompulsoryElectiveRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => string | Promise<string>;
+
+  export type TypeResolver = (
+    parent: PointsCompulsoryElectiveRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => RequirementEnum | Promise<RequirementEnum>;
+
+  export type ChooseResolver = (
+    parent: PointsCompulsoryElectiveRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => number | Promise<number>;
+
+  export type CoursesResolver = (
+    parent: PointsCompulsoryElectiveRequirement,
+    args: {},
+    ctx: Context,
+    info: GraphQLResolveInfo
+  ) => Course[] | Promise<Course[]>;
+
+  export interface Type {
+    _id: (
+      parent: PointsCompulsoryElectiveRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => string | Promise<string>;
+
+    type: (
+      parent: PointsCompulsoryElectiveRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => RequirementEnum | Promise<RequirementEnum>;
+
+    choose: (
+      parent: PointsCompulsoryElectiveRequirement,
+      args: {},
+      ctx: Context,
+      info: GraphQLResolveInfo
+    ) => number | Promise<number>;
+
+    courses: (
+      parent: PointsCompulsoryElectiveRequirement,
       args: {},
       ctx: Context,
       info: GraphQLResolveInfo
@@ -341,9 +500,10 @@ export namespace CompulsoryElectiveRequirementResolvers {
 export interface Resolvers {
   Query: QueryResolvers.Type;
   Program: ProgramResolvers.Type;
-  StudyYear: StudyYearResolvers.Type;
-  StudyPeriod: StudyPeriodResolvers.Type;
+  Grade: GradeResolvers.Type;
+  Period: PeriodResolvers.Type;
   Course: CourseResolvers.Type;
   CompulsoryRequirement: CompulsoryRequirementResolvers.Type;
-  CompulsoryElectiveRequirement: CompulsoryElectiveRequirementResolvers.Type;
+  CourseCompulsoryElectiveRequirement: CourseCompulsoryElectiveRequirementResolvers.Type;
+  PointsCompulsoryElectiveRequirement: PointsCompulsoryElectiveRequirementResolvers.Type;
 }

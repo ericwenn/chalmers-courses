@@ -1,77 +1,46 @@
 import gql from 'graphql-tag';
 
-const COURSE_FRAGMENT = gql`
-fragment CourseFragment on Course {
-  code
-  name
-  points
-}
-`;
-
-const SLIM_COURSE_FRAGMENT = gql`
-fragment SlimCourseFragment on Course {
-  code
-}
-`;
-
-const PERIOD_FRAGMENT = gql`
-fragment PeriodFragment on StudyPeriod {
-  name
-  courses {
-    ...CourseFragment
-  }
-}
-${COURSE_FRAGMENT}
-`;
-
-const YEAR_FRAGMENT = gql`
-fragment YearFragment on StudyYear {
-  year
-  periods {
-    ...PeriodFragment
-  }
-}
-${PERIOD_FRAGMENT}
-`;
-
 const REQUIREMENT_FRAGMENT = gql`
-fragment RequirementFragment on Requirement {
-  __typename
-  type
-  ... on CompulsoryRequirement {
+  fragment RequirementFragment on Requirement {
+    _id
+    type
     courses {
-      ...SlimCourseFragment
+      _id
+      code
+      points
+    }
+    ... on CourseCompulsoryElectiveRequirement {
+      chooseCourses: choose
+    }
+    ... on PointsCompulsoryElectiveRequirement {
+      choosePoints: choose
     }
   }
-  ... on CompulsoryElectiveRequirement {
-    courses {
-      ...SlimCourseFragment
-    },
-    choose
-  }
-}
-${SLIM_COURSE_FRAGMENT}
 `;
 
-export const PROGRAM_FRAGMENT = gql`
-fragment ProgramFragment on Program {
-  name
-  requirements {
-    ...RequirementFragment
-  }
-  years {
-    ...YearFragment
-  }
-}
-${REQUIREMENT_FRAGMENT}
-${YEAR_FRAGMENT}
-`;
 
 export const COURSE_QUERY = gql`
 query CoursesQuery {
   program {
-    ...ProgramFragment
+    _id
+    name
+    grades {
+      year
+      periods {
+        _id
+        name
+        courses {
+          _id
+          code
+          name
+          points
+        }
+      }
+    }
+    requirements {
+      ...RequirementFragment
+    }
   }
 }
-${PROGRAM_FRAGMENT}
+${REQUIREMENT_FRAGMENT}
 `;

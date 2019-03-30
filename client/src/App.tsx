@@ -8,12 +8,12 @@ const GlobalStyle = createGlobalStyle`
   @import url(‘https://fonts.googleapis.com/css?family=Montserrat|Roboto');
 
   body {
-    padding: 1em;
     margin: 0;
     font-size: 14px;
     font-family: Roboto, sans-serif;
   }
 `;
+
 
 export const App = () => (
   <ApolloProvider client={client}>

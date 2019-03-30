@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "@playlyfe/gql": "^2.6.1",
-    "@types/styled-components": "^4.1.2"
-  },
   "scripts": {
     "codegen": "apollo codegen:generate --target typescript --outputFlat client/src/graphql/__generated__"
   }

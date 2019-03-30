@@ -3,11 +3,12 @@ import { ProgramResolvers } from '../generated/graphqlgen';
 
 export const Program: ProgramResolvers.Type = {
   ...ProgramResolvers.defaultResolvers,
-  years: async (_, {}, { dataSources }: Context<any>) => {
-    return dataSources.courseAPI.getStudyYears();
+  _id: ({ _id }) => _id.toHexString(),
+  grades: async ({ _id }, {}, { dataSources }: Context<any>) => {
+    return dataSources.courseAPI.getGrades(_id);
   },
 
-  requirements: async (_: any, {}, { dataSources }: Context) => {
-    return dataSources.courseAPI.getRequirements();
+  requirements: async ({ _id }, {}, { dataSources }: Context) => {
+    return dataSources.courseAPI.getRequirements(_id);
   },
 };

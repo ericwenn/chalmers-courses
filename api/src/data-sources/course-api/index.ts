@@ -1,34 +1,37 @@
 import { DataSource } from 'apollo-datasource';
-import { Collection, Cursor, Db, ObjectID } from 'mongodb';
-import { Course, make } from '../collections/courses';
+import { ObjectID } from 'bson';
+import { CourseCollection } from '../collections/courses';
+import { GradeCollection } from '../collections/grades';
+import { PeriodCollection } from '../collections/periods';
+import { ProgramCollection } from '../collections/programs';
+import { RequirementCollection } from '../collections/requirements';
 import { ContextualDataSource } from '../contextual-datasource';
-
-
-
-interface Document {
-  _id: ObjectID;
-}
-
-
-interface WithID {
-  id: string;
-}
-
-function toArray<T extends Document>(cursor: Cursor<T>, replaceId: boolean = true): Promise<Array<(T & WithID)>> {
-  return new Promise((resolve) => {
-    const docs: Array<T & WithID> = [];
-    cursor.forEach((item: T) => {
-      (item as T & WithID).id = item._id.toString();
-      docs.push(item as T & WithID);
-    }, () => resolve(docs));
-  });
-}
+import { Course, Grade, Period, Program, Requirement } from '../types';
 
 export class CourseAPI extends ContextualDataSource {
-  public courses: Collection<Course>;
+  public programs: ProgramCollection;
+  public grades: GradeCollection;
+  public periods: PeriodCollection;
+  public courses: CourseCollection;
+  public requirements: RequirementCollection;
 
-  public async getAllCourses() {
-    const courses = await toArray(this.courses.find());
-    return courses;
+  public getProgram(): Promise<Program> {
+    return this.programs.findOne({ code: 'MPALG' });
+  }
+
+  public getGrades(programId: ObjectID): Promise<Grade[]> {
+    return this.grades.find({ programId }).toArray();
+  }
+
+  public getPeriods(gradeId: ObjectID): Promise<Period[]> {
+    return this.periods.find({ gradeId }).toArray();
+  }
+
+  public getCourses(courseIds: ObjectID[]): Promise<Course[]> {
+    return this.courses.find({ _id: { $in: courseIds }}).toArray();
+  }
+
+  public getRequirements(programId: ObjectID): Promise<Requirement[]> {
+    return this.requirements.find({ programId }).toArray();
   }
 }

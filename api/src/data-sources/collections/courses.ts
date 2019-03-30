@@ -1,11 +1,8 @@
-import { Db, ObjectId } from 'mongodb';
+import { Collection, Db } from 'mongodb';
+import { Course } from '../types';
 
-export interface Course {
-  _id: ObjectId;
-  name: string;
-}
-
-export const make = async (database: Db) => {
+export type CourseCollection = Collection<Course>;
+export const courseCollection = async (database: Db) => {
   const collection = database.collection<Course>('courses');
   return collection;
 };

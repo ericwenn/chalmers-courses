@@ -1,33 +1,38 @@
-import { Context } from '../context';
-import { CompulsoryElectiveRequirementResolvers, CompulsoryRequirementResolvers } from '../generated/graphqlgen';
+import { Requirement as RQ } from 'src/data-sources/types';
+import {
+  CompulsoryRequirementResolvers,
+  CourseCompulsoryElectiveRequirementResolvers,
+  PointsCompulsoryElectiveRequirementResolvers,
+} from '../generated/graphqlgen';
 
 export const Requirement = {
-  __resolveType: async ({ type }: any) => {
+  __resolveType: async ({ type }: RQ) => {
     switch (type) {
       case 'compulsory':
         return 'CompulsoryRequirement';
-      case 'compulsory-elective':
-        return 'CompulsoryElectiveRequirement';
+      case 'courses':
+        return 'CourseCompulsoryElectiveRequirement';
+      case 'points':
+        return 'PointsCompulsoryElectiveRequirement';
       default:
         return null;
     }
   },
 };
 
-
-const coursesResolver = ({ courses }: any, _: any, { dataSources }: Context) => {
-  return dataSources.courseAPI.getCourses(courses);
-};
-
 export const CompulsoryRequirement: CompulsoryRequirementResolvers.Type = {
   ...CompulsoryRequirementResolvers.defaultResolvers,
-  type: () => 'COMPULSORY',
-  courses: coursesResolver,
-
+  _id: ({ _id }) => _id.toHexString(),
+  courses: ({ courseIds }, _, { dataSources }) => dataSources.courseAPI.getCourses(courseIds),
+};
+export const CourseCompulsoryElectiveRequirement: CourseCompulsoryElectiveRequirementResolvers.Type = {
+  ...CourseCompulsoryElectiveRequirementResolvers.defaultResolvers,
+  _id: ({ _id }) => _id.toHexString(),
+  courses: ({ courseIds }, _, { dataSources }) => dataSources.courseAPI.getCourses(courseIds),
+};
+export const PointsCompulsoryElectiveRequirement: PointsCompulsoryElectiveRequirementResolvers.Type = {
+  ...PointsCompulsoryElectiveRequirementResolvers.defaultResolvers,
+  _id: ({ _id }) => _id.toHexString(),
+  courses: ({ courseIds }, _, { dataSources }) => dataSources.courseAPI.getCourses(courseIds),
 };
 
-export const CompulsoryElectiveRequirement: CompulsoryElectiveRequirementResolvers.Type = {
-  ...CompulsoryElectiveRequirementResolvers.defaultResolvers,
-  type: () => 'COMPULSORY_ELECTIVE',
-  courses: coursesResolver,
-};

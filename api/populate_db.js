@@ -73,27 +73,36 @@ const insert = async(file, collections) => {
 
   await Programs.insertOne(program);
   await Grades.insertMany(grades);
-  await Periods.insertMany(periods);
-  await Courses.insertMany(courses);
-  await Requirements.insertMany(requirements);
+  if (periods.length > 0) {
+    await Periods.insertMany(periods);
+  }
+  if (courses.length > 0) {
+    await Courses.insertMany(courses);
+  }
+  if (requirements.length > 0) {
+    await Requirements.insertMany(requirements);
+  }
 }
 
 const populate = async (files) => {
   const client = await mongodb.connect('mongodb://localhost:27017/ccourses', { useNewUrlParser: true });
   const db = await client.db();
 
+  const Programs = db.collection('programs');
+  const Grades = db.collection('grades');
+  const Periods = db.collection('periods');
+  const Courses = db.collection('courses');
+  const Requirements = db.collection('requirements');
   const collections = {
-    Programs: db.collection('programs'),
-    Grades: db.collection('grades'),
-    Periods: db.collection('periods'),
-    Courses: db.collection('courses'),
-    Requirements: db.collection('requirements'),
-  };
-  
-  await insert(files[10], collections);
-  // for (let file of files) {
-  //   insert(file, collections);
-  // }
+    Programs,
+    Grades,
+    Periods,
+    Courses,
+    Requirements
+  }
+  for (let file of files) {
+    await insert(file, collections);
+  }
   await client.close();
 }
 

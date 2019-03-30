@@ -8,16 +8,21 @@ const {
 const fragmentMatcher = new IntrospectionFragmentMatcher({
   introspectionQueryResultData: {
     __schema: {
-      types: [
-        {
-          kind: 'INTERFACE',
-          name: 'Requirement',
-          possibleTypes: [
-            { name: 'CompulsoryRequirement' },
-            { name: 'CompulsoryElectiveRequirement' },
-          ],
-        },
-      ],
+      types: [{
+        kind: 'INTERFACE',
+        name: 'Requirement',
+        possibleTypes: [
+          {
+            name: 'CompulsoryRequirement',
+          },
+          {
+            name: 'CourseCompulsoryElectiveRequirement',
+          },
+          {
+            name: 'PointsCompulsoryElectiveRequirement',
+          },
+        ],
+      }],
     },
   },
 });

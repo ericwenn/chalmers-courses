@@ -8,26 +8,30 @@ input ProgramInput {
 }
 
 type Program {
+  _id: ID!
   name: String!
-  years: [StudyYear!]!
+  grades: [Grade!]!
   requirements: [Requirement!]!
 }
 
-type StudyYear {
+type Grade {
+  _id: ID!
   year: Int
-  periods: [StudyPeriod!]!
+  periods: [Period!]!
 }
 
-type StudyPeriod {
+type Period {
+  _id: ID!
   name: String!
   courses: [Course!]!
 }
 
 type Course {
+  _id: ID!
   name: String!
   code: String!
   points: Float!
-  block: BlockEnum!
+  block: BlockEnum
 }
 
 enum BlockEnum {
@@ -43,20 +47,31 @@ enum BlockEnum {
 }
 
 interface Requirement {
+  _id: ID!
   type: RequirementEnum!
+  courses: [Course!]!
 }
 enum RequirementEnum {
-  COMPULSORY_ELECTIVE,
-  COMPULSORY
+  courses,
+  points,
+  compulsory
 }
 
 type CompulsoryRequirement implements Requirement {
+  _id: ID!
   type: RequirementEnum!
   courses: [Course!]!
 }
 
-type CompulsoryElectiveRequirement implements Requirement {
+type CourseCompulsoryElectiveRequirement implements Requirement {
+  _id: ID!
   type: RequirementEnum!
   choose: Int!
+  courses: [Course!]!
+}
+type PointsCompulsoryElectiveRequirement implements Requirement {
+  _id: ID!
+  type: RequirementEnum!
+  choose: Float!
   courses: [Course!]!
 }

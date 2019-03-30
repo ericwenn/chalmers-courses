@@ -192,7 +192,7 @@
   ],
   "requirements": [
     {
-      "type": "compulsive",
+      "type": "compulsory",
       "courses": [
         "MVE012",
         "TEK040",

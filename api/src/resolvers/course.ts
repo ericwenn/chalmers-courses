@@ -2,6 +2,7 @@ import { CourseResolvers } from '../generated/graphqlgen';
 
 export const Course: CourseResolvers.Type = {
   ...CourseResolvers.defaultResolvers,
+  _id: ({ _id }) => _id.toHexString(),
   block: (course) => {
     switch (course.block) {
       case 'A+':
@@ -12,10 +13,8 @@ export const Course: CourseResolvers.Type = {
         return 'C_PLUS';
       case 'D+':
         return 'D_PLUS';
-      case '':
-        return 'NO_BLOCK';
       default:
-        return course.block;
+        return null;
     }
   },
 };

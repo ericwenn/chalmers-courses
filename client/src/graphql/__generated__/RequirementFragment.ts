@@ -9,25 +9,46 @@ import { RequirementEnum } from "./globalTypes";
 
 export interface RequirementFragment_CompulsoryRequirement_courses {
   __typename: "Course";
+  _id: string;
   code: string;
+  points: number;
 }
 
 export interface RequirementFragment_CompulsoryRequirement {
   __typename: "CompulsoryRequirement";
+  _id: string;
   type: RequirementEnum;
   courses: RequirementFragment_CompulsoryRequirement_courses[];
 }
 
-export interface RequirementFragment_CompulsoryElectiveRequirement_courses {
+export interface RequirementFragment_CourseCompulsoryElectiveRequirement_courses {
   __typename: "Course";
+  _id: string;
   code: string;
+  points: number;
 }
 
-export interface RequirementFragment_CompulsoryElectiveRequirement {
-  __typename: "CompulsoryElectiveRequirement";
+export interface RequirementFragment_CourseCompulsoryElectiveRequirement {
+  __typename: "CourseCompulsoryElectiveRequirement";
+  _id: string;
   type: RequirementEnum;
-  courses: RequirementFragment_CompulsoryElectiveRequirement_courses[];
-  choose: number;
+  courses: RequirementFragment_CourseCompulsoryElectiveRequirement_courses[];
+  chooseCourses: number;
 }
 
-export type RequirementFragment = RequirementFragment_CompulsoryRequirement | RequirementFragment_CompulsoryElectiveRequirement;
+export interface RequirementFragment_PointsCompulsoryElectiveRequirement_courses {
+  __typename: "Course";
+  _id: string;
+  code: string;
+  points: number;
+}
+
+export interface RequirementFragment_PointsCompulsoryElectiveRequirement {
+  __typename: "PointsCompulsoryElectiveRequirement";
+  _id: string;
+  type: RequirementEnum;
+  courses: RequirementFragment_PointsCompulsoryElectiveRequirement_courses[];
+  choosePoints: number;
+}
+
+export type RequirementFragment = RequirementFragment_CompulsoryRequirement | RequirementFragment_CourseCompulsoryElectiveRequirement | RequirementFragment_PointsCompulsoryElectiveRequirement;

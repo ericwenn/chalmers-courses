@@ -6,8 +6,9 @@
 //==============================================================
 
 export enum RequirementEnum {
-  COMPULSORY = "COMPULSORY",
-  COMPULSORY_ELECTIVE = "COMPULSORY_ELECTIVE",
+  compulsory = "compulsory",
+  courses = "courses",
+  points = "points",
 }
 
 //==============================================================

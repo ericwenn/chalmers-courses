@@ -904,7 +904,7 @@
   ],
   "requirements": [
     {
-      "type": "compulsive",
+      "type": "compulsory",
       "courses": [
         "AFT043",
         "ATH062",
@@ -916,7 +916,7 @@
       ]
     },
     {
-      "type": "compulsive",
+      "type": "compulsory",
       "courses": [
         "ARK064",
         "ARK063",
@@ -926,7 +926,7 @@
       ]
     },
     {
-      "type": "compulsive",
+      "type": "compulsory",
       "courses": [
         "ARK516",
         "ARK481",
